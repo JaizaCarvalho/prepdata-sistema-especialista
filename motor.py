@@ -6,9 +6,9 @@ CONDICOES = [
     "poucos_dados"
 ]
 
-def carregar_regras(caminho_csv="rules.csv"):
+def carregar_regras(caminho_csv="regras.csv"):
     """
-    Lê o arquivo rules.csv e converte para uma lista de dicionários.
+    Lê o arquivo regras.csv e converte para uma lista de dicionários.
     Valores vazios no CSV são convertidos para None ('não importa').
     """
     df = pd.read_csv(caminho_csv) 

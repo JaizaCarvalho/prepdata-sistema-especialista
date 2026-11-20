@@ -4,7 +4,7 @@ from motor import carregar_regras, decidir
 
 
 def verificar_base():
-    regras = carregar_regras('rules.csv')
+    regras = carregar_regras()
 
     regras_disparadas = set()
     lacunas = []
