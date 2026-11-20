@@ -1,0 +1,6 @@
+id,classe,precisa_explicar,poucos_dados,recomendacao,fonte
+R1,baixo,,,Treinar direto um modelo simples e avaliar com matriz de confusao,"Rules of Machine Learning (regra 4); scikit-learn: confusion_matrix"
+R2,medio,,1,Imputar nulos; codificar categoricas e usar validacao cruzada (imputador dentro de um Pipeline),"scikit-learn: Cross-validation; Imputation of missing values; OneHotEncoder"
+R3,medio,,0,Imputar nulos; codificar categoricas e treinar com separacao treino/teste,"scikit-learn: train_test_split; Imputation of missing values; OneHotEncoder"
+R4,alto,1,,Usar arvore de decisao (modelo interpretavel) e mostrar as condicoes aprendidas; imputar nulos so se a versao usada exigir,"scikit-learn: Decision Trees"
+R5,alto,0,,Testar modelos mais flexiveis e comparar com validacao cruzada para vigiar overfitting,"James et al. (2013) ISL: secao 2.1.3"
